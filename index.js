@@ -16,7 +16,7 @@ app.use('/api/usuarios', usuarioRoutes);
 
 // Ruta de prueba
 app.get('/', (req, res) => {
-  res.json({ mensaje: 'LS Play Backend funcionando correctamente 🤟' });
+  res.json({ mensaje: 'LS Play Backend funcionando correctamente ' });
 });
 
 // Iniciar servidor
